@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valter • Desenvolvedor Frontend</title>
+  <meta name="description" content="Portfólio de desenvolvedor frontend freelancer especializado em HTML, CSS e JavaScript." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<div class="gamer-cursor" id="gamerCursor"></div>
+<body class="loading">
+  <!-- PARTÍCULAS ANIMADAS -->
+  <div class="particles" id="particles"></div>
+  
+  <!-- SCANLINE MELHORADO -->
+  <div class="scanline"></div>
+
+  <header>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="hero-simple">
+      <div class="hero-text-block">
+        <span class="tag">FRONTEND DEVELOPER</span>
+        <h1 class="hero-name">
+          <h1 class="hero-name">VALTER</h1>
+        </h1>
+        <p class="hero-desc">
+  Desenvolvedor Front-End freelancer especializado em
+  <strong>HTML, CSS e JavaScript</strong>.<br>
+  Crio interfaces modernas, rápidas e responsivas, com foco em performance e experiência do usuário.<br>
+  Utilizo ferramentas de inteligência artificial como ChatGPT, Claude AI e Perplexity para otimizar o desenvolvimento e criar soluções mais eficientes.
+</p>
+        <a href="#projetos" class="btn">Ver projetos</a>
+      </div>
+
+      <div class="hero-photo">
+        <div class="avatar ultra">
+          <img src="image/file.jpg" alt="Foto do desenvolvedor">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre" class="reveal">
+    <h2>Sobre mim</h2>
+    <p>
+     Desenvolvedor Front-End focado na criação de interfaces modernas, responsivas e funcionais com HTML, CSS e JavaScript. Utilizo ferramentas de inteligência artificial como ChatGPT, Claude AI e Perplexity para otimizar processos, acelerar o desenvolvimento e criar soluções mais eficientes.
+    </p>
+
+    <div class="skills">
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <span>HTML5</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <span>CSS3</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+       
+       <div class="skill">
+      <img src="https://lh3.googleusercontent.com/8R8I31mdIsz1Ex-LYVIBt75U8m8hio9TSwkdBvymMeF1zyp1t-zpF4ge_I6rDP60Z5nk" width="40">
+        <span>Claude AI</span>
+      </div>
+      <div class="skill">
+       <img src="./image/12222588.png" width="40">
+        <span>ChatGPT</span>
+      </div>
+       <div class="skill">
+         <img src="https://cdn.simpleicons.org/perplexity" width="40">
+        <span>Perplexity</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="reveal">
+    <h2>Projetos</h2>
+    <div class="projetos-grid">
+      <div class="card">
+        <a href="https://pizzaria-lyart-eight.vercel.app/">
+          <img src="image/PIZZARIA.png" alt="Projeto Landing Page">
+          <div class="info">
+            <h3>Projeto PIZZARIA</h3>
+            <span>Landing Page</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="https://site-de-adivogado.vercel.app/">
+          <img src="image/site-porti.png" alt="Projeto Site Institucional">
+          <div class="info">
+            <h3>Projeto PORTIFOLHIO</h3>
+            <span>Site Institucional</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="https://academia-artreus.vercel.app/">
+          <img src="image/ACADEMIA.png" alt="Projeto Academia">
+          <div class="info">
+            <h3>Projeto ACADEMIA</h3>
+            <span>Landing Page</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="reveal">
+    <h2>Serviços</h2>
+    <div class="servicos">
+      <div class="servico">
+        <h3>Sites Profissionais</h3>
+        <p>Visual moderno, rápido e responsivo.</p>
+      </div>
+      <div class="servico">
+        <h3>Landing Pages</h3>
+        <p>Foco total em conversão.</p>
+      </div>
+      <div class="servico">
+        <h3>Manutenção</h3>
+        <p>Suporte, ajustes e melhorias contínuas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="reveal">
+    <h2>Contato</h2>
+    <p style="text-align:center; max-width:600px; margin:0 auto 60px; color:var(--muted); font-size: 1.2rem;">
+      Tem um projeto em mente? Envie uma mensagem e vamos conversar.
+    </p>
+
+    <form class="contact-form" id="contactForm">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://wa.me/5511999999999?text=Olá!">
+      <input type="hidden" name="_subject" value="Novo projeto - Valter">
+
+      <div class="form-group">
+        <input type="text" name="name" required placeholder="Seu nome" />
+        <input type="email" name="email" required placeholder="Seu e-mail" />
+      </div>
+
+      <textarea name="message" rows="6" required placeholder="Conte sobre seu projeto..."></textarea>
+
+      <button type="submit" class="btn" id="submitBtn">Enviar mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 • Valter — Todos os direitos reservados
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
